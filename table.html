@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tableau">
+    <title>Tableau en HTML</title>
+    <link rel="icon" type="image/png" href="./asset/outline_table_rows_black_24dp.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <header> <h1>
+        <span class="material-icons" aria-hidden="true">
+            trending_up
+            </span> Structure d'un tableau html</h1></header>
+
+    <main>
+        <!-- ici on structure le tableau-->
+        <div class="inner-table-large inner-table-regular" role="region">
+            <table> <!--display table-->
+                <caption>Le top 10 des classements</caption>
+                <!--partie header-->
+                <thead>
+                    <tr>
+                        <th>
+                            <span class="material-icons" aria-hidden="true">
+                                show_chart
+                                </span>
+                            classement</th>
+                        <th>Language</th>
+                        <th>type</th>
+                    </tr>
+                </thead>
+                <!--partie body-->
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>python</td>
+                        <td>site web</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>php</td>
+                        <td>app web</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>javascript</td>
+                        <td>app web</td>
+                    </tr>
+                </tbody>
+                <!--partie footer-->
+                <tfoot>
+                    <tr>
+                        <th>
+                            <span class="material-icons" aria-hidden="true">
+                                show_chart
+                                </span>
+                            classement</th>
+                        <th>Language</th>
+                        <th>type</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; ITIC - 2021</p>
+    </footer>
+</body>
+</html>
